@@ -1,7 +1,4 @@
-import os
-from dotenv import load_dotenv
-load_dotenv()
 
-SENDGRID_API_KEY = os.getenv('API_KEY')
-FROM_EMAIL = os.getenv('FROM_EMAIL ') 
+SENDGRID_API_KEY = 'MI_API_KEY_SECRET_GUARDADA_EN_EL_.ENV'
+FROM_EMAIL = 'juanjosearroyave0401@gmail.com'
 TO_EMAIL = ''
